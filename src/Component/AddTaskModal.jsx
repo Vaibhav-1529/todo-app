@@ -101,7 +101,7 @@ function AddTaskModal(props) {
           onInput={(e) => setDescription(e.target.value)}
           onKeyDown={handleKeyPress}
           className="text-white border-[1px] rounded-lg border-[#1DCD9F] text-[15px] p-2 bg-[#222222]"
-          rows={4}
+          rows={15}
           placeholder="Enter the task details"
         ></textarea>
 
